@@ -10,6 +10,7 @@
  * Carne: 15015, 15021, 15046
  * 13 de Julio del 2016
  * Descripción: Esta clase es la interfaz que se utilizará como modelo para simular el "Stack" que se encargará del manejo de los datos
+ * @param <E>
  */
 public interface Stack <E> 
 {
