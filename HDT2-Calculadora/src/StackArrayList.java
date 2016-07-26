@@ -1,21 +1,14 @@
-
-import java.util.ArrayList;
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  * Universidad del Valle de Guatemala
  * @author Christian Morales, Jose Luis Méndez, Juan García
  * Carne: 15015, 15021, 15046
- * 13 de Julio del 2016
+ * 25 de Julio del 2016
  * Descripción: Esta clase implementa el contrato de la interfaz, en esta ocasion será implementado por medio de un ArrayList (donde se puede
  * trabajar con infinitos datos y se van agregando conforme se necesite) los metodos están arreglados de tal manera que funcione con este modo
- * @param <E>
  */
+
+import java.util.ArrayList;
+
 public class StackArrayList <E>
  implements Stack<E>
 {
