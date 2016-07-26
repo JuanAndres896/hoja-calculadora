@@ -20,7 +20,6 @@ public class StackVector {
 	public StackArrayList()
 	// post: constructs a new, empty stack
 	{
-		data = new Vector<>();
 	}
 
         @Override

@@ -24,7 +24,7 @@ public class StackArrayList <E>
 	public StackArrayList()
 	// post: constructs a new, empty stack
 	{
-		data = new ArrayList<>();
+		data = new ArrayList<E>();
 	}
 
         @Override
