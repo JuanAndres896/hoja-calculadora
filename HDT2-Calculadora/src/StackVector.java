@@ -23,6 +23,7 @@ public class StackVector {
 		data = new Vector();
 	}
 
+        @Override
 	public void push(E item)
 	// post: the value is added to the stack
 	//          will be popped next if no intervening push
@@ -30,6 +31,7 @@ public class StackVector {
 		data.addElement(item);
 	}
 
+        @Override
 	public E pop()
 	// pre: stack is not empty
 	// post: most recently pushed item is removed and returned
