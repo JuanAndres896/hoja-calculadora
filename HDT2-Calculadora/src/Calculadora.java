@@ -46,8 +46,9 @@ public class Calculadora {
             // este if hace la operacion de suma
             }else if(caracter.equals("+")){
                 cantidadE = pila.size();
+                variable = Integer.parseInt((String) pila.pop());
                 //este ciclo interno, va haciando "pop" cantidadE veces para sumar cada operando en el stack con variable (que maneja el resultado)
-                for(int j = 0; j <cantidadE; j++){
+                for(int j = 0; j <cantidadE-1; j++){
                     temp = Integer.parseInt((String) pila.pop());
                     variable = temp + variable;
                 }
@@ -55,7 +56,8 @@ public class Calculadora {
                 pila.push(variableS);
             }else if(caracter.equals("-")){
                 cantidadE = pila.size();
-                for(int j = 0; j <cantidadE; j++){
+                variable = Integer.parseInt((String) pila.pop());
+                for(int j = 0; j <cantidadE-1; j++){
                     temp = Integer.parseInt((String) pila.pop());
                     variable = temp - variable;
                 }
