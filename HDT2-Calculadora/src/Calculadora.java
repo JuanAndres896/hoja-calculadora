@@ -1,14 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  * Universidad del Valle de Guatemala
  * @author Christian Morales, Jose Luis Méndez, Juan García
  * Carne: 15015, 15021, 15046
- * 13 de Julio del 2016
+ * 25 de Julio del 2016
  * Descripción: Esta clase sera la encargada de utilizar el stack, ya sea en modo ArrayList o en modo Vector. En cualquiera de sus implementacion debe
  * funcionar adecuadamente, pues esta clase trabaja de manera estandarizada. 
  */
