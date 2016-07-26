@@ -27,7 +27,7 @@ public class StackVector {
 	// post: the value is added to the stack
 	//          will be popped next if no intervening push
 	{
-		data.add(item);
+		data.addElement(item);
 	}
 
 	public E pop()
