@@ -20,7 +20,7 @@ public class StackVector {
 	public StackArrayList()
 	// post: constructs a new, empty stack
 	{
-		data = new Vector();
+		data = new Vector<>();
 	}
 
         @Override
@@ -39,6 +39,7 @@ public class StackVector {
 		return data.remove(size()-1);
 	}
 
+        @Override
 	public E peek()
 	// pre: stack is not empty
 	// post: top value (next to be popped) is returned
@@ -46,12 +47,14 @@ public class StackVector {
 		return data.get(size() - 1);
 	}
 	
+        @Override
 	public int size()
 	// post: returns the number of elements in the stack
 	{
 		return data.size();
 	}
   
+        @Override
 	public boolean empty()
 	// post: returns true if and only if the stack is empty
 	{
