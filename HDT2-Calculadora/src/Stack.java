@@ -9,8 +9,7 @@
  * @author Christian Morales, Jose Luis Méndez, Juan García
  * Carne: 15015, 15021, 15046
  * 13 de Julio del 2016
- * Descripción: Esta clase implementa el contrato de la interfaz, en esta ocasion será implementado por medio de un ArrayList (donde se puede
- * trabajar con infinitos datos y se van agregando conforme se necesite) los metodos están arreglados de tal manera que funcione con este modo
+ * Descripción: Esta clase es la interfaz que se utilizará como modelo para simular el "Stack" que se encargará del manejo de los datos
  */
 public interface Stack <E> 
 {
