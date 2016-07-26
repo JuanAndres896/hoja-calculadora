@@ -25,7 +25,8 @@ public class main {
  
     public static void main(String[] args) throws IOException {
         
-        Stack pila = new StackVector<String>();
+        Stack pila = new StackArrayList<String>();
+        //Stack pila = new StackVector<String>();
         Calculadora calc = new Calculadora(pila);
         String cadena = muestraContenido("C:/Users/Christian Morales/Desktop/archivo.txt");
         int resultado = calc.evaluar( cadena );
